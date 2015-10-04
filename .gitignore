@@ -1,0 +1,8 @@
+*~
+*.pyc
+*.pkl
+data/*.csv
+*.log
+*.csv
+
+
