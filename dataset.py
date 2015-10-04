@@ -173,7 +173,7 @@ class Dataset:
                           "coupon_ids": row_ids,
                           "valid_coupon_ids": valid_row_ids})
             if i % 100 == 0:
-                print "convert user(train): %d/%d\r" % (i, len(user_df)),
+                print "load users: %d/%d\r" % (i, len(user_df)),
                 sys.stdout.flush()
 
         print "\n",
