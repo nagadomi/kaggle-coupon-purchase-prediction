@@ -8,7 +8,7 @@ Note: This code is able to achieve a 5th place score (Private LB: 0.008776). But
 
 - OS: Ubuntu 14.04
 - Python: 2.7
-- pip: numpy(1.9), scipy, pandas, sklearn-pandas, chainer
+- pip: numpy(1.9), scipy, pandas, sklearn, sklearn-pandas, chainer
 
 ## Data
 
