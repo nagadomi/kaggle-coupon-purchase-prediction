@@ -19,7 +19,6 @@ def predict():
             scalers.append(scaler)
     
     def callback(rec):
-        pred = np.zeros((len(rec["coupon_feats"]), 1), dtype=np.float32)
         feats = rec["coupon_feats"]
         pred = np.zeros(len(feats), dtype=np.float32)
         
