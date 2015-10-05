@@ -2,7 +2,7 @@ from chainer import Variable, FunctionSet, optimizers
 import chainer.functions  as F
 import numpy as np
 
-# 3-layers MLP
+# 3-layer MLP
 class MLP3(FunctionSet):
     def __init__(self, params):
         self.params = params

@@ -278,8 +278,8 @@ class Dataset:
     def gen_valid_data(self, num_nega=2):
         raise NotImplementedError("gen_valid_data")
     
-    def gen_train_data_paiwise(self, num_nega=10):
-        raise NotImplementedError("gen_train_data_paiwise")
+    def gen_train_data_pairwise(self, num_nega=10):
+        raise NotImplementedError("gen_train_data_pairwise")
     
     def gen_valid_data_pairwise(self, num_nega=10):
         x0 = []
