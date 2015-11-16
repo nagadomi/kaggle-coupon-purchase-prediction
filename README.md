@@ -27,4 +27,4 @@ validation-set: last 4 weeks.
     $ ls -la submission_mlp.csv
 
 It takes around 5 hours on 4 core CPU and 16GB RAM.
-If you get an out-of-memory error, remove `&` from `run.sh`.
+If you get an out-of-memory error, use `run_low_memory.sh`.
